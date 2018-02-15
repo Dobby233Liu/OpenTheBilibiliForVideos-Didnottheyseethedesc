@@ -57,6 +57,6 @@ public class MainActivity extends Activity
 	};
 	}
 	public void fail(){
-		Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_LONG);
+		Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_LONG).show();
 	}
 }
