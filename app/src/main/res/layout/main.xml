@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="av"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainTextView1"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/mainTextView1"
+			android:id="@+id/mainEditText1"/>
+
+	</RelativeLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Open"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/avOpen"/>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="UID"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainTextView2"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</RelativeLayout>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@id/mainTextView1"
+		android:id="@+id/mainEditText2"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Open"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/authorOpen"/>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Bangumi"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainTextView3"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</RelativeLayout>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@id/mainTextView1"
+		android:id="@+id/mainEditText3"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Open"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/banOpen"/>
+
+</LinearLayout>
+
